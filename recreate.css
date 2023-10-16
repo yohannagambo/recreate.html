@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-background{
+    background-image: url(download.png);
+}
+.button-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-right .tweet-btn{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 15px;
+}
+.tweet-btn{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.h1-caption, .sub-caption{
+        margin-left: 20px;
+        color: white;
+}
+.h1-caption{
+    margin-bottom: 30px;
+    font-size: large;
+}
+.sub-caption{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+.navber{
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.navber a{
+    color: white;
+    padding: 14px ;
+    text-decoration: none;
+    text-align: center;
+}
+.navber a:hover{
+    display: flex;
+    background-color: white;
+    color: blue;
+}
+.row1{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex: 40%;
+    background-image: url(image.png);
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+    height: 150px;
+}
+.col-2{
+    flex: 20px;
+    border: 2px solid black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.colm-3{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 130px;
+    padding: 16px;
+    margin-top: 20px;
+    font-size: large;
+}
+.overall1{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.colm-4{
+    flex: 40%;
+    background-image: url(image.png) ;
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.colm-5{
+    flex: 40%;
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 150px;
+    padding: 18px;
+    border-radius: 10px;
+}
+.overall2{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.colm-6{
+    flex: 40%;
+    background-image: url(image.png);
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+    height: 150px;
+}
+.colm-7{
+    flex: 20px;
+    border: 2px solid black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.row3{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.colm-11{
+    width: 30%;
+    height: 150px;
+    border: 2px solid black;
+    padding: 18px;
+    border-radius: 6px;
+    margin-right: 40px;
+    background-image: url(image.png);
+    color: white;
+}
+.colm-12{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    border: 2px solid black;
+    padding: 18px;
+    border-radius: 6px;
+    margin-left: 30px;
+    background-image: url(image.png);
+    color: white;
+}
+.colm-13{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    border: 2px solid black;
+    padding: 18px;
+    border-radius: 6px;
+    margin-left: 50px;
+    background-image: url(image.png);
+    color: white;
+}
+.row-4{
+    display: flex;
+    margin-top: 46px;
+    flex-wrap: wrap;
+}
+.colm-14{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 150px;
+    padding:18px ;
+    border-radius:9px ;
+    border: 2px;
+    margin-top: 2%;
+}
+.contain{
+    background-image:url(download.png);
+    height: 200PX;
+    width: 100%px;
+    border-radius: 10px;
+    border: 2px;
+    align-items: center;
+    display: flex;
+    margin-top: 2%;
+}
+.contain-1{
+    background-color: rgb(232, 220, 220);
+    height: 80%;
+    width:70% ;
+    border-radius: 8px;
+    margin-left: 20%;
+}
+button{
+    color: aqua;
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 40%;
+    border-radius: 75px;
+    transition-property: width,background-color;
+    transition-duration: 6s,6s;
+    transition-delay: 0s;
+}
+button:hover{
+    width: 300px;
+}
